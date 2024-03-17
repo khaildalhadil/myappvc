@@ -1,0 +1,17 @@
+.btn {
+    background: none;
+    border: none;
+    font-family: cursive;
+}
+
+.main--btn {
+    background: #e24a85;
+    color: white;
+    padding: 1rem 2rem;
+    border:  2px solid #333;
+    box-shadow: -4px 4px  #000;
+    border-radius: 4px;
+    margin-top: 2.5rem;
+    font-size: 2rem;
+    cursor: pointer;
+}
