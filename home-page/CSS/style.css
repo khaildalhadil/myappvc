@@ -642,7 +642,25 @@ header {
     position: absolute;
 }
 
-.main--bg {
+#gradient-canvas {
+    width: 200%;
+    height: 97rem;
+    transform: rotate(-10deg);
+    position: absolute;
+    top: -60rem;
+    left: -50%;
+    z-index: -123;
+    /* --gradient-color-1: #FF204E;
+    --gradient-color-2: #A0153E;
+    --gradient-color-3: #5D0E41; 
+    --gradient-color-4: #00224D; */
+    --gradient-color-1: #FBA834;
+    --gradient-color-2: #333A73;
+    --gradient-color-3: #387ADF; 
+    --gradient-color-4: #50C4ED;
+}
+
+/* .main--bg {
     width: 150%;
     height: 150%;
     background: linear-gradient(to left, transparent, #4400c5, #4400ab);
@@ -652,9 +670,9 @@ header {
     border-radius: 0 0 0 10rem ;
     opacity: .9;
     z-index: -1;
-}
+} */
 
-.bg-1 {
+/* .bg-1 {
     width: 50%;
     height: 100%;
     background: linear-gradient(transparent 60%, #ff26ac, #f724db );
@@ -677,7 +695,7 @@ header {
     opacity: .4;
     box-shadow: 7rem 4rem 6rem rgba(0,0,0,0.9);
 
-}
+} */
 
 .main--h1 {
     /* font-size: 5.2rem; */
