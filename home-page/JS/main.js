@@ -64,7 +64,6 @@ textStudent.innerHTML = spans;
 console.log(spans)
 
 // nav 
-
 window.addEventListener('scroll', () => {
     if (window.scrollY > 0) {
         navBar.classList.add('sticky')
@@ -72,3 +71,26 @@ window.addEventListener('scroll', () => {
         navBar.classList.remove('sticky')
     }
 })
+// end of nav 
+
+// projects
+const filterLinks = document.querySelectorAll('.filter-nav-link')
+filterLinks.forEach((filterlink) => {
+    filterlink.addEventListener('click', (e) => {
+        e.preventDefault()
+
+        document.querySelector('.filter-nav-link.active').classList.remove('active')
+        filterlink.classList.add('active')
+
+        const projects = document.querySelectorAll('.project')
+        projects.forEach((project) => {
+            project.classList.add('hide')
+
+        if (filterlink.getAttribute('data-type') === project.getAttribute('data-type') || filterlink.getAttribute('data-type') === 'all') {
+            prompt.classList.remove('hide')
+            }
+        })
+
+    })
+})
+// end of projects

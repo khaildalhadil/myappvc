@@ -650,14 +650,14 @@ header {
     top: -60rem;
     left: -50%;
     z-index: -123;
-    /* --gradient-color-1: #FF204E;
+    --gradient-color-1: #FF204E;
     --gradient-color-2: #A0153E;
     --gradient-color-3: #5D0E41; 
-    --gradient-color-4: #00224D; */
-    --gradient-color-1: #FBA834;
+    --gradient-color-4: #00224D;
+    /* --gradient-color-1: #FBA834;
     --gradient-color-2: #333A73;
     --gradient-color-3: #387ADF; 
-    --gradient-color-4: #50C4ED;
+    --gradient-color-4: #50C4ED; */
 }
 
 /* .main--bg {
@@ -946,6 +946,133 @@ header {
 }
 
 /* end of services */
+
+/* projects */
+
+.projects {
+    width: 100%;
+    height: 100%;
+    padding: 25rem 0 15rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects h1 {
+    font-family: 'mooli', cursive;
+    font-size: 6rem;
+    color: #ff4800;
+    margin-bottom: 4rem;
+}
+
+.projects p {
+    width: 90rem;
+    text-align: center;
+    font-size: 2rem;
+    color: #59728f;
+    margin-bottom: 4rem;
+}
+
+.filter-nav {
+    width: 80%;
+    height: 10rem;
+    background-color: #fff;
+    box-shadow: 0 2rem 8rem rgba(130, 162, 235, .2);
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 6rem;
+}
+
+.filter-nav-link {
+    font-family: 'mooli', cursive;
+    width: 14rem;
+    height: 5rem;
+    background-color: #f2f4f5;
+    border-radius: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #919daa;    
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: .1rem;
+    transition: .3s;
+}
+
+.filter-nav-link:hover {
+    background-color: #dadfe2;
+    transform: translateY(-0.1rem);
+}
+
+.active {
+    background-color: #ff4c01;
+    color: #fff;
+}
+
+.active:hover {
+    background-color: #fc611f;
+}
+
+.projects-list {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project {
+    width: 33rem;
+    height: 33rem;
+    position: relative;
+    margin: 5rem;
+    cursor: pointer;
+}
+
+.project.hide {
+    display: none;
+}
+
+.project img {
+    position: absolute;
+    object-fit: cover;
+    top: 50%;
+    border-radius: 1rem;
+}
+
+.project img:nth-child(1) {
+    width: 22rem;
+    height: 100%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 1rem 4rem rgba(0,0,0,0.4);
+    z-index: 2;
+}
+
+.project img:nth-child(2) {
+    width: 20rem;
+    height: 30rem;
+    left: -5%;
+    transform: translateY(-50%);
+    box-shadow: 0 3rem 8rem rgba(130, 162, 235, .9);
+    z-index: 1;
+}
+
+.project img:nth-child(3) {
+    width: 100%;
+    height: 70%;
+    right: -10%;
+    transform: translateY(-50%);
+    box-shadow: 0 3rem 8rem rgba(130, 162, 235, .9);
+}
+
+
+
+/* end of projects */
 
 
 /*
