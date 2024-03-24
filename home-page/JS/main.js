@@ -87,7 +87,7 @@ filterLinks.forEach((filterlink) => {
             project.classList.add('hide')
 
         if (filterlink.getAttribute('data-type') === project.getAttribute('data-type') || filterlink.getAttribute('data-type') === 'all') {
-            prompt.classList.remove('hide')
+            project.classList.remove('hide')
             }
         })
 

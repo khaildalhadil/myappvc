@@ -1,6 +1,6 @@
 
 
-const button = document.querySelector('.btn');
+const button = document.querySelector('.btn--action');
 const massege1 = document.querySelector('.in__massege');
 const massege2 = document.querySelector('.in__massege1');
 const massege3 = document.querySelector('.in__massege2');
