@@ -21,13 +21,21 @@ h1 {
     color: #617280;
 }
 
+.content--send--massege--for--us {
+    width: 100%;
+    height: 100vh;
+    /* background: linear-gradient(to left, #8430ea, #8430ea,#4c0c9b); */
+    /* background: skyblue; */
+    z-index: -2323;
+}
+
 .send--massege--for--us {
     position: relative;
 }
 
 .massege {
-    max-width: 100rem;
-    height: 80rem;
+    max-width: 90rem;
+    height: 70rem;
     /* background-color: ?; */
     margin: 5rem auto;
     position: relative;
@@ -199,7 +207,7 @@ input::placeholder {
 
 .content--input--area {
     position: absolute;
-    top: 48%;
+    top: 49%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
